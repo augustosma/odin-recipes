@@ -1,3 +1,2 @@
 # odin-recipes
-Recipes page in HTML
-A simple food recipes webpage project developed to put in practice the basics of html, including structuring the page with headers, paragraphs and lists, and adding links and images.
+Simple food recipes page developed in HTML to put in practice structuring the page with headers, paragraphs and lists, and adding links and images.
