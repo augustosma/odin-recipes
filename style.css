@@ -1,0 +1,44 @@
+/* style.css */
+
+* {
+    font-family: "Lucida Console", "Times New Roman", Times, sans-serif, serif;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    font-weight: 800;
+    font-size: 36px;
+    background-color: gray;
+}
+
+ul {
+    color: hex(177,150,100);
+    background-color: #f1f177;
+    font-size: 20px;
+}
+
+.recipe-title {
+    color: green;
+}
+
+#first-ingredient {
+    font-weight: bold;
+}
+
+.steps {
+    background-color: hsl(87,77%,77%);
+}
+
+.steps.cooking {
+    background-color: hsl(87,77%,70%);
+}
+
+.steps .time {
+    background-color: hsl(87,77%,40%);
+}
+
+.steps #cooking-time {
+    font-weight: bold;
+    font-style: italic;
+}
