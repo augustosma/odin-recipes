@@ -1,7 +1,13 @@
 /* style.css */
 
 * {
-    font-family: "Lucida Console", "Times New Roman", Times, sans-serif, serif;
+    font-family: "Lucida Console", "Times New Roman", Times, sans-serif, serif;  
+}
+body {
+    width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    background-color: lightyellow;
 }
 
 h1 {
@@ -10,16 +16,69 @@ h1 {
     font-weight: 800;
     font-size: 36px;
     background-color: gray;
+    font-size: 36px;
+    padding: 8px;    
+}
+
+h2, h3 {
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #636363;
 }
 
 ul {
     color: hex(177,150,100);
-    background-color: #f1f177;
+    background-color: yellow;
     font-size: 20px;
+    width: 80%;
+    margin-left: 20px;    
 }
 
+ol {
+    width: 80%;
+    margin-left: 20px;
+}
+
+li {
+    margin: 10px 0;    
+}
+
+p {
+    margin-left: 24px;  
+}
+
+.steps-box, 
+.ingredients-box {
+    background-color: hsl(87,77%,77%);
+    margin: 20px;
+    padding: 10px;
+}
+
+.main-part {
+    background-color: #f1f177;
+    padding: 10px;
+}
+
+.recipes-list {
+    margin: 10px auto;    
+}
+
+.recipes-list li{
+    padding: 10px 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;    
+}
+
+
 .recipe-title {
-    color: green;
+    color: orange;
 }
 
 #first-ingredient {
@@ -41,4 +100,15 @@ ul {
 .steps #cooking-time {
     font-weight: bold;
     font-style: italic;
+}
+
+div.back-link {
+    text-align: right;
+}
+
+span.carefull {
+    text-decoration: underline;
+    background-color: lightgreen;
+    margin-right: 10px;    
+    padding: 10px;
 }
